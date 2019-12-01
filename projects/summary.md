@@ -15,12 +15,14 @@ Unsurprisingly:
 
 
 ## Challenges:
-- Size of the dataset: due to its large volume (>2 Gb), the dataset can't be processed easily as is. Sampling methods may be necessary
-- Features: Apart from the types of interactions that, there are only 4 features tied to the users, meaning "classic" classifying approaches might not be good enough
+- Size of the dataset: due to its large volume (>2 Gb), the dataset can't be processed easily as is. Sampling methods will be necessary.
+- Features: Apart from the types of interactions, there are only 4 features tied to the users, meaning "classic" classifying approaches might not be good enough
 
 ## Engineering:
 // We should put here what techniques and tools we think we'll have to use and a lot of buzzwords
+-Downsampling: This essentially means that we have to find a representative subset of the vertices. However, since the network is connected this will mean to break/neglect edges which in turn introduces an error.
+-Extract graph features: Due to the structure of the dataset more features can be extracted from the different interaction graphs. To begin with the deegres, the clustering coefficients and the number of triangles can be added as features to explore their correlation with the "spammer" label.
+-Classification: To classify the constructed feature graph we then have to deploy a classification algorithm that works best with the given data structure. As to start with we might compare the linear vs. nonlinear methods learned in class with each other (PCA, MDS vs. Isomap, Laplacian Eigenmaps, LLE).
 
 ## Conclusion:
-
 
