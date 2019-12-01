@@ -6,7 +6,7 @@ The goal of the project is to implement a model/algorithm capable of classifying
 ## Dataset:
 We opted for the "Social Spammers" dataset from UC Stanta Cruz. The dataset is a graph of interaction between the users of the social network Tagged.com.
 - It contains 5.6M users and 858M links between them. Each user has 4 features and is labeled as "spammer" or "not spammer".
-- Each link represents an action between two users. The network contains 7 anonymized types of links.
+- Each link represents an action between two users. The network contains 7 anonymized types of links (i.e. 7 different graphs with the same nodes).
 
 ## Graph:
 Unsurprisingly:
