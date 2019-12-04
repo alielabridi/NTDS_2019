@@ -1,5 +1,13 @@
 # Project Summary: Spammers on Social Networks
 
+## Students:
+- Team: 04
+- Group:
+    - Yann Yanis Bouquet
+    - Ali El Abridi
+    - Tariq Kalim
+    - Jonas Müller
+
 ## Motivation:
 The goal of the project is to implement a model/algorithm capable of classifying users of a social media network as "spammers" or "not spammers" based on their interactions with other users and a limited set of features.
 
