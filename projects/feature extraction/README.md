@@ -19,3 +19,4 @@ To be implemented
 * birel: number of bidirectional relations
 * deg_weight: degree weigthed with the scarcity of the relations
 * deg_strong: number of strong relations (several different interactions)
+* rel_div: diversity of relations
