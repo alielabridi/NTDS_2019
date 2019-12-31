@@ -26,8 +26,8 @@ Bonus points can be attributed in each category for going the extra mile.
 * a vizualization of the network
 * a reflection on the insights
 
-### 4. Exploitation (30 points) 7.01.2020
-
+### 4. Exploitation (30 points) 5.01.2020
+(Ali - ...)
 * at least one of the following tools, seen during the lectures, is used:
 	* clustering (spectral clustering, k-means)
 	* graph Fourier transform
