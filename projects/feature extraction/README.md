@@ -14,3 +14,20 @@ The following features are extracted:
 * dout: degree for outgoing edges (deg_in = deg_tot - deg_out)
 * duni: number of unique neighbors of a node
 * n_bidir: number of bidirectional (in & out) relations
+
+### sampling_extractions.ipynb
+To extract other features we chose to use networkx. In order to create graphs, some relations needed to be sampled.
+This notebook has an **exploration** part where we analyse :
+* degree distributions,
+* in/out_degree distributions,
+* average clustering coefficients,
+of the graphs (one graph per relation), define them. Furthermore it has an **extraction** part where we extract the features for the classification. The features depend on the relation type.
+
+#### Dependencies for sampling_extractions.ipynb
+```
+conda install -c anaconda ipywidgets
+
+jupyter nbextension enable --py widgetsnbextension
+
+jupyter labextension install @jupyter-widgets/jupyterlab-manager
+```
