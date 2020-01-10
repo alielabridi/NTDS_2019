@@ -10,12 +10,7 @@ The preprocessed file is being loaded in individual chunks and in each chunk the
 
 The following features are extracted:
 
-* deg_tot: degree of a node
-* deg_out: degree for outgoing edges (deg_in = deg_tot - deg_out)
-* uni_neigh: number of unique neighbors of a node
-* nr_of_bidirect: number of bidirectional (in & out) relations
-
-To be implemented
-* deg_weight: degree weigthed with the scarcity of the relations
-* deg_strong: number of strong relations (several different interactions)
-* rel_div: diversity of relations
+* dtot: degree of a node
+* dout: degree for outgoing edges (deg_in = deg_tot - deg_out)
+* duni: number of unique neighbors of a node
+* n_bidir: number of bidirectional (in & out) relations
