@@ -6,7 +6,8 @@ Given the previous projects realised on this dataset it was found that tackling 
 ## Preprocessing
 The given dataset (relations.csv) includes the features [day, time\_ms, src, dst, relation]. Since this project is about networks we can remove the time component for our purposes and the convenience of having a smaller dataset (the original dataset is about 25Gb). Furthermore the graph is directed, meaning that every edge has a source node (src) and a destination node (dst). The given data is sorted along the src of the edges. Therefore an operation wanting to compute a feature of the local neighborhood of a node will have to gather all edges where the node appears as dst in the whole dataset. This means sorting 858,247,099 numbers which obviously takes some time. However, this could be done once and then each edge can be stored twice, once grouped next to the src edges and once grouped next to the dst edge. Naturally a flag for each edge as in-going or out-going has to be added in order to still be able to distinguish between them which can conveniently be done storage efficiently by adding for example the value 10 to the relations of the in-going relations. Thus allowing a simple modulo 10 operation to retrieve relation and direction of the edge.
 
-## Feature extraction (full dataset)
+## Feature extraction
+### Full dataset
 The preprocessed file is being loaded in individual chunks and in each chunk the features are calculated.
 
 The following features are extracted:
