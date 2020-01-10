@@ -21,7 +21,8 @@ To extract other features we chose to use networkx. In order to create graphs, s
 This notebook has an **exploration** part where we analyse :
 * degree distributions,
 * in/out_degree distributions,
-* average clustering coefficients,
+* average clustering coefficients, 
+
 of the graphs (one graph per relation), define them. Furthermore it has an **extraction** part where we extract the features for the classification. The features depend on the relation type.
 
 #### Dependencies for sampling_extractions.ipynb
