@@ -2,6 +2,8 @@ Here we can partition `relations.csv` by type of relations in order to obtain a 
 To create the graphs, you can run `relations_sampling.ipynb`.
 Then we created gephi projects such as `subsampled_rel1_gephi_project.gephi`
 
+We used force-directed layout to spatialize the graphs : Mutligravity Force Atlas 2 and we dissuade hubs to apply stronger repulsive forces to hubs.
+
 ### Dependencies
 ```
 conda install -c anaconda ipywidgets
